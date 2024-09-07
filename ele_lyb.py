@@ -141,7 +141,7 @@ class LYB:
 
         try:
             r = requests.post(
-                "http://192.168.1.124:1777/api/getXSign",
+                "http://bj.frp.one:17151/getXSign",
                 json=body
             )
             r.raise_for_status()
