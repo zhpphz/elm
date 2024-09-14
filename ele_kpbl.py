@@ -67,7 +67,7 @@ def xsign(api, data, uid, sid, wua, v):
 
     try:
         r = requests.post(
-            "http://bj.frp.one:17151/getXSign",
+            "http://192.168.123.4:17152/api/getXSign",
             # "http://127.0.0.1:18848/api/getXSign",
             json=body
         )
