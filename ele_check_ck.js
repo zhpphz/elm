@@ -8,7 +8,6 @@
  * export myUid='UID_xxx' #自己的uid，接收通知
  * export tunnel='elm.xxx.xyz' #掉线重新登录地址
  */
-const $ = new Env('饿了么CK检测');
 const {
     getEnvsByName,
     DisableCk,
@@ -181,4 +180,6 @@ async function _0x179175(data, context, options) {
     }
     process.exit(0);
 }());
+
+
 
