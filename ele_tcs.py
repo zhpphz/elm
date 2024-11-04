@@ -181,7 +181,7 @@ class TCS:
 
         try:
             r = requests.post(
-                "http://192.168.123.4:17152/api/getXSign",
+                "http://10.0.0.243:17152/api/getXSign",
                 json=body
             )
             r.raise_for_status()
