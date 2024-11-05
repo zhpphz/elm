@@ -67,7 +67,7 @@ def xsign(api, data, uid, sid, wua, v):
 
     try:
         r = requests.post(
-            "http://10.0.0.243:17152/api/getXSign",
+            "http://10.0.0.174:17152/api/getXSign",
             # "http://127.0.0.1:18848/api/getXSign",
             json=body
         )
